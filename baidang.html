@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="congthucmenu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="logo/logodv.png" alt="logo" />
+        </div>
+        <div class="slogen">
+          <img src="logo/sologan.png" alt="Công thức hay, lên ngay bếp chính" />
+        </div>
+        <div class="input__search">
+          <input type="text" id="text-search" placeholder="Tìm trên DV Chef Recipes" />
+          <button onclick="aaa()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div class="card_search-container">
+            <ul>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img src="logo/daubep.jpg" alt="" />
+          <p>Thành Đạt</p>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </nav>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="/DVchiasenauan/index.html">Home</a></li>
+          <li><a href="">Đánh giá</a></li>
+          <li><a href="/baidang.html">Danh mục</a></li>
+          <li><a href="/post/index.html">Đăng công thức</a></li>
+        </ul>
+      </div>
+      </div>
+    </header>
+
+    <div class="container_recipe-filter">
+      <div class="recipe_filter">
+        <div>
+          <select name="" id="">
+            <option value="" disabled selected hidden>Công thức</option>
+            <option value="Tất cả">Tất cả</option>
+            <option value="Món ăn mặn">Món ăn mặn</option>
+            <option value="Đồ tráng miệng">Đồ tráng miệng</option>
+            <option value="Món ngọt">Món ngọt</option>
+            <option value="Đồ uống">Đồ uống</option>
+            <option value="Đồ ăn nhanh">Đồ ăn nhanh</option>
+          </select>
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="" disabled selected hidden>Nhu cầu</option>
+            <option value="Dân gian">Dân gian</option>
+            <option value="Cao cấp">Cao cấp</option>
+            <option value="Bình dân">Bình dân</option>
+            <option value="Mới nhất">Mới nhất</option>
+          </select>
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="" disabled selected hidden>Chi phí</option>
+            <option value="Miễn phí">Miễn phí</option>
+            <option value="Trả phí">Trả phí</option>
+            <option value="Cả hai">Cả hai</option>
+          </select>
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="" disabled selected hidden>Thời tiết</option>
+            <option value="Xuân">Xuân</option>
+            <option value="Hạ">Hạ</option>
+            <option value="Thu">Thu</option>
+            <option value="Đông">Đông</option>
+            <option value="Tất cả">Tất cả</option>
+          </select>
+        </div>
+        <div>
+          <button>Bộ lọc</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="container_post-1" class="container_post"></div>
+    </div>
+    <div class="card-actions">
+      <button
+        id="load-more"
+        onclick="
+      increaseCard()"
+      >
+        Load more <br />
+        <span
+          ><span id="card-count"></span> of <span id="card-total"></span>
+        </span>
+      </button>
+    </div>
+  </body>
+  <script src="review.js"></script>
+  <script src="header.js"></script>
+</html>

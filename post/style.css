@@ -1,0 +1,497 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  gap: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Inter, sans-serif;
+  color: #484848;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 160px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  gap: 50px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.container label {
+  font-size: 16px;
+}
+
+.containaer.light {
+  background-color: #fff;
+}
+
+.text.light {
+  color: #1d1c1c;
+}
+
+input,
+textarea,
+select {
+  font-size: 20px;
+  padding-left: 10px;
+  border: 2px solid #484848;
+  border-radius: 4px;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+input.light:focus {
+  border-color: #484848;
+}
+.category.input.light:focus {
+  border-color: #484848;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-style: dotted; /* Đặt kiểu border là dashed (viền nét đứt) khi input được tập trung */
+  border-width: 4px;
+  outline: none;
+  border-color: #484848;
+}
+.form-field.clicked .input {
+  border-color: #484848;
+  border-width: 4px;
+  border-style: dotted;
+}
+
+.upload-image {
+  width: 288px;
+  height: 225px;
+  border: 2px dotted #f36695;
+  margin: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+
+.left {
+  width: min-content;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+hr {
+  margin: 0;
+  border-color: #ccc;
+  border-width: 0.1px;
+  size: 0.5px;
+}
+
+.right {
+  flex: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.input.wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 88.7%;
+  border: 2px solid #484848;
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: 2px solid #484848;
+  border-radius: 4px;
+}
+
+.input.wrap i {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  padding-left: 5px;
+}
+
+.input.wrap input {
+  padding-left: 50px;
+  width: 100%;
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+.input.wrap.clicked {
+  border-color: #f36695;
+  border-width: 4px;
+  border-style: dotted;
+}
+
+.upload-video {
+  width: 288px;
+  height: 225px;
+  border: 2px dotted #f36695;
+  margin: 0;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+select {
+  width: 606px;
+  height: 46px;
+  margin-bottom: 15px;
+}
+
+.details {
+  width: 87%;
+  height: 46px;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 87%;
+  height: 46px;
+  margin-bottom: 50px;
+}
+
+/* chú ý */
+.form-field {
+  position: relative;
+  width: 88.4%;
+  height: 400px;
+}
+
+.form-field textarea {
+  border: none;
+  outline: none;
+  height: 99%;
+  width: 99.9%;
+  resize: none;
+  padding: 0px;
+  padding-left: 20px;
+  padding-top: 25px;
+  font: 20px sans-serif;
+  border: 2px solid #484848;
+}
+
+.description-input,
+.description-label {
+  transition: all 0.2s;
+  width: 88.4%;
+}
+
+.description-input {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.description-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.description-input:valid + .description-label,
+.description-input:focus + .description-label {
+  font-size: 17px;
+  transform: translate(10px, -50%);
+  background: transparent;
+  z-index: 1;
+  width: auto;
+}
+
+.description-input:valid + .description-label.dark,
+.description-input:focus + .description-label.dark {
+  background: transparent;
+}
+
+.description-input:valid + .description-label.light,
+.description-input:focus + .description-label.light {
+  background: #fff;
+}
+
+.description-input:placeholder-shown:not(:focus) + .description-label {
+  margin: 10px;
+  font-size: 25px;
+  transform: initial;
+  color: #999898;
+}
+
+.seller-info {
+  width: 88.4%;
+  height: 46px;
+  margin-bottom: 5px;
+}
+.seller-number {
+  width: 88.4%;
+  height: 46px;
+  margin-bottom: 5px;
+}
+
+.seller-name {
+  width: 88.4%;
+  height: 46px;
+  margin-bottom: 5px;
+}
+.additional-info {
+  width: 88.4%;
+  height: 46px;
+  margin-bottom: 5px;
+}
+.category {
+  width: 88.7%;
+  height: 47px;
+  padding-left: 10px;
+  border: 2px solid #606060;
+  font: 20px sans-serif;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.preview-button {
+  width: 280px;
+  height: 40px;
+  align-items: self-start;
+  background-color: white;
+  border-color: #f36695;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  color: #f36695;
+  display: flex;
+  font-family: Helvetica;
+  justify-content: center;
+  line-height: 20px;
+  padding: 9px 19px;
+  text-align: center;
+  margin-right: 5%;
+  font-size: 20px;
+}
+.submit-button {
+  width: 280px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #f36695;
+  border-color: #f36695;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  font-family: Helvetica;
+  align-items: flex-end;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+.upload-image-container {
+  position: relative;
+}
+
+.uploaded-images {
+  display: none;
+}
+
+.uploaded-images.show {
+  display: block;
+}
+.losttime {
+  width: 88.4%;
+  display: flex;
+  flex-direction: column;
+}
+.losttime_input {
+  height: 46px;
+  border: 2px solid #484848;
+}
+label {
+  padding: 10px 0 5px 0;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* CSS cho màn hình laptop */
+@media screen and (min-width: 1024px) {
+  /* Áp dụng các thuộc tính CSS tương ứng cho laptop */
+  .container {
+    width: 60%;
+  }
+  .right {
+    width: 50%;
+  }
+}
+
+/* CSS cho màn hình điện thoại */
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+    width: 100%;
+  }
+
+  .left {
+    width: 70%;
+    margin-left: 0;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+  }
+
+  .right {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+    justify-content: center; /* Canh giữa phần tử con theo chiều dọc */
+  }
+
+  label {
+    align-self: self-start;
+    padding: 10px 0 5px 0;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .labeldate {
+    margin-left: 0px;
+  }
+  .buttons {
+    width: 80%;
+  }
+  .submit-button {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .upload-image,
+  .upload-video {
+    width: 85%;
+    height: 500px;
+  }
+  label {
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+  }
+}
+
+.losttime-input {
+  position: relative;
+  width: 100%;
+  height: 55px;
+}
+
+.losttime-input input {
+  width: 100%;
+}
+
+.losttime-input span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  transform: translateY(-20%);
+  background: transparent;
+  pointer-events: none;
+}
+
+.losttime-input i {
+  font-size: 20px;
+  background-color: transparent;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* CSS cho màn hình iPad */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+  .container {
+    height: 300%;
+    flex-direction: column;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+    width: 100%;
+  }
+
+  .left {
+    width: 90%;
+    margin-left: 0;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+  }
+
+  .right {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Canh giữa phần tử con theo chiều ngang */
+    justify-content: center; /* Canh giữa phần tử con theo chiều dọc */
+  }
+
+  label {
+    align-self: self-start;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .labeldate {
+    padding-left: 0%;
+    margin: 0%;
+  }
+  .submit-button {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .upload-image,
+  .upload-video {
+    width: 85%;
+    height: 500px;
+  }
+  label {
+    font-size: 30px;
+    padding: 10px 0 5px 0;
+  }
+  .input.wrap {
+    height: 50px;
+  }
+}

@@ -1,0 +1,664 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "picture": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "age": 23,
+      "name": "Bird Ramsey",
+      "email": "test1@gmail.com",
+      "phone": "0999555121"
+    },
+    {
+      "id": "2",
+      "picture": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "age": 23,
+      "name": "Lillian Burgess",
+      "email": "test2@gmail.com",
+      "phone": "0999555121"
+    },
+    {
+      "id": "3",
+      "picture": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "age": 23,
+      "name": "Kristie Cole",
+      "email": "test2@gmail.com",
+      "phone": "0999555121"
+    }
+  ],
+  "loginInformation": [
+    {
+      "id": 1,
+      "email": "test1@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "test2@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "email": "test3@gmail.com",
+      "password": "123"
+    }
+  ],
+  "AllPost": [
+    {
+      "idUser": "1",
+      "id": "W5og5su6XmD0nYDHj76DmVier",
+      "urlAvata": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "name": "Bird Ramsey",
+      "urlImage": [
+        "https://cdn.tgdd.vn/2021/10/CookRecipe/Avatar/banh-flan-sua-dac-thumbnail-1.jpg"
+      ],
+      "title": "Bánh flan caramel",
+      "steps": "1. Làm caramel: Đun nước và đường trong một nồi nhỏ đến khi đường tan và có màu nâu đẹp.\n2. Đổ caramel vào đáy các khuôn làm bánh.\n3. Làm hỗn hợp trứng: Kết hợp sữa đặc, sữa tươi, đường và vani trong một tô. Khi hỗn hợp đều, thêm từ từ trứng và khuấy đều.\n4. Đổ hỗn hợp trứng vào khuôn bánh có caramel.\n5. Hấp bánh flan trong nồi hấp khoảng 30-35 phút.\n6. Sau khi bánh chín và nguội, lật ngược khuôn và trang trí bánh bằng trái cây hoặc kem tươi.",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "Ration": "3",
+      "describe": "Bánh flan caramel có hương vị mềm mịn, kết hợp giữa kem và caramel thơm ngon.",
+      "price": "3500"
+    },
+    {
+      "idUser": "1",
+      "id": "p9iCJxuNG35bYV9KMcjnc0u34",
+      "urlAvata": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "name": "Bird Ramsey",
+      "urlImage": [
+        "https://th.bing.com/th/id/OIP.xNeluPgDSF0OmyBii91E-gHaE1?pid=ImgDet&rs=1"
+      ],
+      "title": "Mì Ý cuộn",
+      "steps": "1. Rửa thịt bò sạch sẽ dưới nước lạnh để loại bỏ bụi bẩn hoặc cặn bẩn. \n 2. Trộn các gia vị ưa thích vào một tô nhỏ, bao gồm muối, tiêu, gia vị tổng hợp, tỏi băm nhuyễn, và dầu ô liu (tuỳ chọn).",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "describe": "Mì cuộn có vị đậm đà của thịt bò và hành tây, rất phù hợp cho một bữa trưa nhanh chóng",
+      "price": "2500"
+    },
+    {
+      "idUser": "1",
+      "id": "54B3Ugsj9VR0cFdtSgBY3JUmu",
+      "urlAvata": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "name": "Bird Ramsey",
+      "urlImage": [
+        "https://img-global.cpcdn.com/recipes/de97e7ed445f9248/1502x1064cq70/banh-cu%E1%BB%91n-thanh-tri-recipe-main-photo.jpg"
+      ],
+      "title": "bánh gạo cuộn",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Rửa tôm sạch sẽ dưới nước lạnh để loại bỏ bụi bẩn hoặc cặn bẩn.\n 2. Trộn các gia vị ưa thích vào một tô nhỏ, bao gồm muối, tiêu, gia vị tổng hợp, tỏi băm nhuyễn, và dầu mè (tuỳ chọn).",
+      "describe": "Bánh gạo cuộn có hương vị tươi mát của tôm và rau sống, rất thích hợp cho một bữa ăn nhẹ",
+      "price": "3000"
+    },
+    {
+      "idUser": "1",
+      "id": "VlJ9RR8tKmpZjMpT8PkpVDAJo",
+      "urlAvata": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "name": "Bird Ramsey",
+      "urlImage": [
+        "https://media.cooky.vn/recipe/g2/12169/s640/recipe12169-636396876754916241.jpg"
+      ],
+      "title": "Bánh bao cuộn",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Rửa thịt heo sạch sẽ dưới nước lạnh để loại bỏ bụi bẩn hoặc cặn bẩn.\n 2. Trộn các gia vị ưa thích vào một tô nhỏ, bao gồm muối, tiêu, gia vị tổng hợp, tỏi băm nhuyễn, và nước mắm (tuỳ chọn).",
+      "describe": "Bánh bao cuộn có hương vị đậm đà của thịt heo và nấm, rất phù hợp cho một bữa sáng hoàn chỉnh",
+      "price": "2500"
+    },
+    {
+      "idUser": "1",
+      "id": "MyseLHhKvEb7PrxZZEMl2noQn",
+      "urlAvata": "https://toplist.vn/images/800px/duong-huy-khai-54123.jpg",
+      "name": "Bird Ramsey",
+      "urlImage": [
+        "https://cdn.tgdd.vn/Files/2022/01/21/1412109/huong-dan-cach-lam-tra-sua-tran-chau-duong-den-202201211522033706.jpg"
+      ],
+      "title": "Trà sữa trân châu",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Chuẩn bị trà và trân châu./n 2. Rót trà vào cốc và thêm đường (tuỳ khẩu vị).\n3. Cho trân châu vào cốc.\n 4. Khuấy đều và thưởng thức.",
+      "describe": "Trà sữa trân châu là một loại đồ uống phổ biến với hương vị thơm ngon và tròn đầy.",
+      "price": "35000"
+    },
+    {
+      "idUser": "2",
+      "id": "vWByvQL60kOK6JHSxmZ0HgKzu",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": [
+        "https://th.bing.com/th/id/OIP.8QmoAwJODYeE6wfRgmAJ6QHaE8?pid=ImgDet&rs=1"
+      ],
+      "title": "Bánh mì cuộn thịt xông khói",
+      "steps": "1. Rửa thịt xông khói sạch sẽ dưới nước lạnh để loại bỏ bụi bẩn hoặc cặn bẩn. \n 2. Trộn các gia vị ưa thích vào một tô nhỏ, bao gồm muối, tiêu, tỏi băm nhuyễn, và mayonnaise (tuỳ chọn).",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "describe": "Bánh mì cuộn thịt xông khói mang hương vị đặc biệt, rất thích hợp cho bữa sáng hoặc bữa trưa nhanh chóng",
+      "price": "2200"
+    },
+    {
+      "idUser": "2",
+      "id": "c4SxCrXNTzhHzXjkir903d9ZI",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Vegetable_gimbap.jpg/1280px-Vegetable_gimbap.jpg"
+      ],
+      "title": "Kimbap",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Rửa rau sống, trứng và thịt bò sạch sẽ dưới nước lạnh để loại bỏ bụi bẩn hoặc cặn bẩn.\n 2. Trộn các gia vị ưa thích vào một tô nhỏ, bao gồm muối, tiêu, và dầu mè (tuỳ chọn).",
+      "describe": "Kimbap với hương vị đậm đà của thịt bò, trứng và rau sống, cùng với vị ngọt của cơm, tạo nên một món ăn hoàn hảo cho bữa trưa hoặc bữa tối",
+      "price": "3000"
+    },
+    {
+      "idUser": "2",
+      "id": "zZ8rvjMbeUvxKidtD7sESEgoG",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": [
+        "https://th.bing.com/th/id/OIP.zNaw9DmFRDkUV3FSUM-aTwAAAA?pid=ImgDet&rs=1"
+      ],
+      "title": "Mì Xào Cuộn",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Luộc mì cho đến khi mềm nhưng không quá nấu chín. Rửa mì bằng nước lạnh để ngừng quá trình nấu.\n2. Trong một nồi, đun nóng dầu ăn và sao cho hành và tỏi thơm.\n3. Thêm thịt gà hoặc tôm, xào cho đến khi chín.\n4. Tiếp theo, thêm rau cải thảo, hành tây, cà rốt và nấm. Xào đến khi rau cải thảo mềm.\n5. Cuối cùng, trộn mì với sốt xào và gia vị theo khẩu vị. Trình bày mì xào lên đĩa và cuộn lại.",
+      "describe": "Mì xào cuộn có hương vị thơm ngon của mì xào và các loại rau cải, là một lựa chọn tuyệt vời cho một bữa trưa nhanh chóng và ngon miệng.",
+      "price": "1800"
+    },
+    {
+      "idUser": "2",
+      "id": "wdRMiaPccQrQ0S75L9V1udU7f",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": [
+        "https://dayphache.edu.vn/wp-content/uploads/2019/09/cach-nau-tra-sen-vang-long-nhan.jpg"
+      ],
+      "title": "Trà sữa trân châu hạt sen",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Chuẩn bị trà và sữa tươi theo tỷ lệ thích hợp. \n2. Pha trà và trộn đều với sữa tươi.\n 3. Thêm trân châu vào ly trà sữa.\n 4. Khuấy đều và thưởng thức.",
+      "describe": "Trà sữa trân châu hạt sen mang hương vị đặc biệt, hòa quyện giữa trà thơm và sữa béo. Sự kết hợp với trân châu giòn tan",
+      "price": "2200"
+    },
+    {
+      "idUser": "2",
+      "id": "3jQGnCCpBcrOyDGAZSZgPAuJ8",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": [
+        "https://i0.wp.com/fallinfika.com/wp-content/uploads/2021/10/IMG_5324.jpg?resize=1024%2C576&ssl=1"
+      ],
+      "title": "Bánh Quế Cuộn",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Trong một tô, trộn bột mì, đường, bơ, trứng và một chút muối. Nhồi bột cho đến khi nó mịn và mềm.\n2. Trải bột thành một tấm mỏng hình chữ nhật.\n3. Trên mặt bột, thoa một lớp bơ tan chảy và rắc đều đường và bột quế.\n4. Cuộn bột từ một cạnh thành một ổ bánh quế.\n5. Hấp bánh quế trong khoảng 15-20 phút cho đến khi chín.\n6. Khi bánh quế đã nguội, cắt thành các miếng vừa phải.",
+      "describe": "Bánh quế cuộn là một loại bánh mỳ nhỏ được làm từ bột mì và nhân bơ quế ngọt ngào.",
+      "price": "1500"
+    },
+    {
+      "idUser": "2",
+      "id": "QoVjPbNNclVodcA95JNQsJCoQ",
+      "urlAvata": "https://scontent.fhan5-1.fna.fbcdn.net/v/t1.6435-9/186990790_6024836247530187_6388266818541753683_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=q7u-475ctTwAX--Ibr7&_nc_ht=scontent.fhan5-1.fna&oh=00_AfDW3by--XjiQMi3za46D5Wz1lWoi2AXslrE8WTX0vp8eg&oe=64CDD67F",
+      "name": "Lillian Burgess",
+      "urlImage": ["https://i.ytimg.com/vi/lvtc6sz_uVI/maxresdefault.jpg"],
+      "title": "Trà chanh",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Pha trà với nước sôi.\n 2. Cho đường và chanh vào.\n 3. Khuấy đều và thưởng thức.",
+      "describe": "Trà chanh là một loại đồ uống truyền thống với hương vị chua ngọt và thơm mát.",
+      "price": "0"
+    },
+    {
+      "idUser": "3",
+      "id": "UhgfNF6HtZ7VC4ugtyXAaLeve",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://th.bing.com/th/id/R.af6c627a8c2085c11c34ca0628ab62ad?rik=JT8Yzqmr4hofbg&pid=ImgRaw&r=0"
+      ],
+      "title": "Cơm Gà Xôi Mỡ",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Luộc gà cho đến khi chín và xé thịt thành những sợi nhỏ.\n2. Nấu xôi mỡ bằng cách hâm nóng nếp gạo trong nồi cơm hấp và trộn với mỡ hành, muối, tiêu, gia vị.\n3. Trình bày xôi mỡ lên đĩa và trải thịt gà xé lên trên.",
+      "describe": "Cơm gà xôi mỡ là một món ăn truyền thống với hương vị thơm ngon của gà, xôi và mỡ hành.",
+      "price": "2500"
+    },
+    {
+      "idUser": "3",
+      "id": "AaCpiEyDeoYBANPIsdtIbggER",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": ["https://i.ytimg.com/vi/4hzLnna-e6c/maxresdefault.jpg"],
+      "title": "Nước ép cam",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Lấy cam tươi và ép lấy nước.\n 2. Đổ nước cam vào ly.\n 3. Thêm đá và khuấy đều.",
+      "describe": "Nước ép cam là một loại đồ uống tự nhiên và giàu vitamin C.",
+      "price": "0"
+    },
+    {
+      "idUser": "3",
+      "id": "xjLJCaZl82hd8I9bjT993U44e",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/5/16/1193284/Ca-Phe-Bach-Tuoc.jpeg"
+      ],
+      "title": "Cà phê đá kem bạch tuộc",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Pha cà phê đen và cho vào ly đá. \ns2. Chuẩn bị kem và tạo hình bạch tuộc.\n 3. Đặt kem bạch tuộc lên ly cà phê.\n 4. Thêm đường và khuấy đều trước khi thưởng thức.",
+      "describe": "Cà phê đá kem bạch tuộc là sự kết hợp độc đáo giữa hương vị đắng của cà phê, độ ngọt của kem và hình dáng độc đáo của bạch tuộc.",
+      "price": "2200"
+    },
+    {
+      "idUser": "3",
+      "id": "08zL6wtQme4PnMm9tzHqdjZid",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://cdn.tgdd.vn/Files/2017/03/12/959979/cach-lam-banh-trang-tron-tai-nha-ngon-cung-nuoc-sot-dam-vi-202202251706317489.jpg"
+      ],
+      "title": "Bánh Tráng Trộn",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Rửa sạch rau sống như rau muống, rau răm, hành phi và hành mỏng.\n2. Pha chế một số gia vị như nước mắm, đường, mè rang và ớt bột.\n3. Trộn bánh tráng với các thành phần trên và gia vị theo khẩu vị.",
+      "describe": "Bánh tráng trộn là một món ăn đường phố phổ biến với hương vị mặn ngọt và giòn rụm của bánh tráng và rau sống.",
+      "price": "1500"
+    },
+    {
+      "idUser": "3",
+      "id": "lxfytYNQii8bxBmXCBvIkVXYN",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://th.bing.com/th/id/OIP.oTNrExtkJogZKVSDSCttiwHaE7?pid=ImgDet&rs=1"
+      ],
+      "title": "Phở Bò",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Nấu nước dùng phở bằng cách luộc xương bò và gia vị như hành, gừng, quế, hồi, tiêu, muối.\n2. Hấp hoặc luộc thịt bò và thái thành lát mỏng.\n3. Luộc phở theo hướng dẫn trên bao bì.\n4. Trình bày phở và thịt bò lên đĩa, rưới nước dùng nóng lên trên và trang trí với hành, ngò gai và húng quế.",
+      "describe": "Phở bò là một món ăn truyền thống của Việt Nam với hương vị đậm đà của nước dùng và thịt bò thơm ngon.",
+      "price": "2000"
+    },
+    {
+      "idUser": "3",
+      "id": "9BKL7KTE53jB9zmXIVVTYmrLK",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://th.bing.com/th/id/R.09f9d0d3b65f42235a22a81cb99a81eb?rik=DJmpVEqM%2bD%2bJJA&pid=ImgRaw&r=0"
+      ],
+      "title": "Gà Rôti",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Làm nước sốt bằng cách kết hợp các gia vị như tỏi, hành, dầu ô liu, mật ong, muối, tiêu và nước cốt chanh.\n2. Ướp gà với nước sốt và gia vị khác, sau đó nướng trong lò nhiệt đới cho đến khi chín và vàng đẹp.\n3. Trình bày gà rôti lên đĩa và rắc thêm hành và ngò rí.",
+      "describe": "Gà rôti là một món ăn ngon và phổ biến, với thịt gà thơm ngon và vị nước sốt đậm đà.",
+      "price": "2500"
+    },
+    {
+      "idUser": "3",
+      "id": "muXCVVJb1i0zmFTBVdI1mxnCR",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://tiki.vn/blog/wp-content/uploads/2023/04/thumbnail.jpg"
+      ],
+      "title": "Sữa chua trái cây",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Chuẩn bị sữa chua và trái cây tươi.\n 2. Trộn sữa chua và trái cây lại với nhau.\n 3. Thêm đường (tuỳ khẩu vị).",
+      "describe": "Sữa chua trái cây là một loại đồ uống mát lạnh và bổ dưỡng.",
+      "price": "0"
+    },
+    {
+      "idUser": "3",
+      "id": "tzmtcRLkJQklChxYaH12WNrOZ",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://quangon.vn/resources/2020/04/03/cach-lam-sinh-to-xoai--2.jpg"
+      ],
+      "title": "Sinh tố xoài",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Lấy xoài chín và bỏ hạt.\n 2. Xay xoài với đá và đường.\n 3. Rót vào cốc và thưởng thức.",
+      "describe": "Sinh tố xoài là một đồ uống ngọt ngào và giàu dinh dưỡng.",
+      "price": "0"
+    },
+    {
+      "idUser": "3",
+      "id": "uMjqPTuSK7zlQrNx6h7j6gBqS",
+      "urlAvata": "https://toplist.vn/images/800px/phan-ton-tinh-hai-396033.jpg",
+      "name": "Kristie Cole",
+      "urlImage": [
+        "https://icdn.dantri.com.vn/thumb_w/640/2021/03/04/vi-ca-phe-den-het-nhu-vi-cuoc-songdocx-1614866315610.png"
+      ],
+      "title": "Cà phê đen",
+      "ingredient": [
+        {
+          "ingredient": "Đường",
+          "quantity": "300g"
+        },
+        {
+          "ingredient": "Nước",
+          "quantity": "60ml"
+        },
+        {
+          "ingredient": "Trứng",
+          "quantity": "6 quả"
+        },
+        {
+          "ingredient": "Sửa tươi",
+          "quantity": "500ml"
+        }
+      ],
+      "steps": "1. Pha cà phê với nước sôi.\n 2. Đổ cà phê vào ly.\n 3. Thêm đường (tuỳ khẩu vị).",
+      "describe": "Cà phê đen có hương vị đậm đà và hấp dẫn của cà phê nguyên chất.",
+      "price": "0"
+    }
+  ]
+}
